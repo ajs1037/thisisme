@@ -79,7 +79,7 @@ const Services = ()=> {
 
 
     return (
-        <div className='container service-section'>
+        <div className='container service-section' id='services'>
 
             {/* section title */}
             <div className='section-title'>
