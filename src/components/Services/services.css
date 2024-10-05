@@ -1,0 +1,58 @@
+.service-section {
+    height: 900px;
+}
+
+.services {
+    margin-top: 100px;
+    color: #000000;
+    padding: 10px;
+
+    -webkit-box-shadow: 15px 9px 9px -2px rgba(230, 224, 224, 0.86);
+    box-shadow: 15px 9px 9px -2px rgba(230, 224, 224, 0.86);
+    -moz-box-shadow: 15px 9px 9px -2px rgba(230, 224, 224, 0.86);
+    cursor: pointer;
+}
+
+.services:hover {
+    -webkit-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+    box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+    -moz-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+    transition: 1s;
+
+    border-left: 3px soild purple;
+    cursor: pointer;
+}
+
+.service-number {
+    height: 50px;
+    width: 50px;
+    color: #FFFFFF;
+    border-radius: 90px;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+.service-number p {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
+}
+
+.section-title h5 {
+    text-align: center;
+}
+
+.service-item-underline {
+    display: block;
+    width: 100%;
+    height: 0.1px;
+    margin-bottom: 10px;
+    background-color: gray;
+}
+
+.list-of-service p {
+    text-align: left;
+}
